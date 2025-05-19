@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37763DFD-CE66-416E-9E1E-553314537C68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoBrands.Api", "src\AutoBrands.Api\AutoBrands.Api.csproj", "{F7DC8604-726E-4B8C-B258-ECDC898F447E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoBrands.Application", "src\AutoBrands.Application\AutoBrands.Application.csproj", "{14FAE847-00D4-4E71-AAE3-4B6A9D594E84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoBrands.Domain", "src\AutoBrands.Domain\AutoBrands.Domain.csproj", "{91EFF34E-E181-45FF-9CB1-125870284C53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoBrands.Infrastructure", "src\AutoBrands.Infrastructure\AutoBrands.Infrastructure.csproj", "{2899A1A5-C1D8-441D-88CF-F58C87AADF09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1E35BAC1-C1C5-4F8E-8E27-8F1A90DB71C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoBrands.Api.Tests", "tests\AutoBrands.Api.Tests\AutoBrands.Api.Tests.csproj", "{FCE14553-E47F-41C7-A816-D1528DD9DFDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoBrands.Application.Tests", "tests\AutoBrands.Application.Tests\AutoBrands.Application.Tests.csproj", "{E97B289B-D6D7-47E4-95A4-947D47B94960}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoBrands.Domain.Tests", "tests\AutoBrands.Domain.Tests\AutoBrands.Domain.Tests.csproj", "{0A18D637-161F-43AB-8E6D-CBEC6DB12287}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoBrands.Infrastructure.Tests", "tests\AutoBrands.Infrastructure.Tests\AutoBrands.Infrastructure.Tests.csproj", "{3F69CD4E-705C-494C-8F65-BF7582649C11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{73F66F13-F52F-43B0-86A5-5EE594B47141}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7DC8604-726E-4B8C-B258-ECDC898F447E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DC8604-726E-4B8C-B258-ECDC898F447E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DC8604-726E-4B8C-B258-ECDC898F447E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DC8604-726E-4B8C-B258-ECDC898F447E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FAE847-00D4-4E71-AAE3-4B6A9D594E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FAE847-00D4-4E71-AAE3-4B6A9D594E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FAE847-00D4-4E71-AAE3-4B6A9D594E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FAE847-00D4-4E71-AAE3-4B6A9D594E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EFF34E-E181-45FF-9CB1-125870284C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EFF34E-E181-45FF-9CB1-125870284C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EFF34E-E181-45FF-9CB1-125870284C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EFF34E-E181-45FF-9CB1-125870284C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2899A1A5-C1D8-441D-88CF-F58C87AADF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2899A1A5-C1D8-441D-88CF-F58C87AADF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2899A1A5-C1D8-441D-88CF-F58C87AADF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2899A1A5-C1D8-441D-88CF-F58C87AADF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE14553-E47F-41C7-A816-D1528DD9DFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE14553-E47F-41C7-A816-D1528DD9DFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE14553-E47F-41C7-A816-D1528DD9DFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE14553-E47F-41C7-A816-D1528DD9DFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97B289B-D6D7-47E4-95A4-947D47B94960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97B289B-D6D7-47E4-95A4-947D47B94960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97B289B-D6D7-47E4-95A4-947D47B94960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97B289B-D6D7-47E4-95A4-947D47B94960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A18D637-161F-43AB-8E6D-CBEC6DB12287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A18D637-161F-43AB-8E6D-CBEC6DB12287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A18D637-161F-43AB-8E6D-CBEC6DB12287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A18D637-161F-43AB-8E6D-CBEC6DB12287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F69CD4E-705C-494C-8F65-BF7582649C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F69CD4E-705C-494C-8F65-BF7582649C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F69CD4E-705C-494C-8F65-BF7582649C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F69CD4E-705C-494C-8F65-BF7582649C11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7DC8604-726E-4B8C-B258-ECDC898F447E} = {37763DFD-CE66-416E-9E1E-553314537C68}
+		{14FAE847-00D4-4E71-AAE3-4B6A9D594E84} = {37763DFD-CE66-416E-9E1E-553314537C68}
+		{91EFF34E-E181-45FF-9CB1-125870284C53} = {37763DFD-CE66-416E-9E1E-553314537C68}
+		{2899A1A5-C1D8-441D-88CF-F58C87AADF09} = {37763DFD-CE66-416E-9E1E-553314537C68}
+		{FCE14553-E47F-41C7-A816-D1528DD9DFDA} = {1E35BAC1-C1C5-4F8E-8E27-8F1A90DB71C7}
+		{E97B289B-D6D7-47E4-95A4-947D47B94960} = {1E35BAC1-C1C5-4F8E-8E27-8F1A90DB71C7}
+		{0A18D637-161F-43AB-8E6D-CBEC6DB12287} = {1E35BAC1-C1C5-4F8E-8E27-8F1A90DB71C7}
+		{3F69CD4E-705C-494C-8F65-BF7582649C11} = {1E35BAC1-C1C5-4F8E-8E27-8F1A90DB71C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74AC72EB-BAB6-4EE4-86C7-CB3458A03D3F}
+	EndGlobalSection
+EndGlobal

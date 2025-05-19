@@ -1,0 +1,15 @@
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\bin\Debug\net8.0\AutoBrands.Application.deps.json
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\bin\Debug\net8.0\AutoBrands.Application.dll
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\bin\Debug\net8.0\AutoBrands.Application.pdb
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\bin\Debug\net8.0\AutoBrands.Domain.dll
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\bin\Debug\net8.0\AutoBrands.Domain.pdb
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\AutoBrands.Application.csproj.AssemblyReference.cache
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\AutoBrands.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\AutoBrands.Application.AssemblyInfoInputs.cache
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\AutoBrands.Application.AssemblyInfo.cs
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\AutoBrands.Application.csproj.CoreCompileInputs.cache
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\AutoBran.3D004C3D.Up2Date
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\AutoBrands.Application.dll
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\refint\AutoBrands.Application.dll
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\AutoBrands.Application.pdb
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Application\obj\Debug\net8.0\ref\AutoBrands.Application.dll

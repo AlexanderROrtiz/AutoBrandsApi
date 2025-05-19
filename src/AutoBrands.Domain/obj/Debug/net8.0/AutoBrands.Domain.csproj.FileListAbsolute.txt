@@ -1,0 +1,11 @@
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\bin\Debug\net8.0\AutoBrands.Domain.deps.json
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\bin\Debug\net8.0\AutoBrands.Domain.dll
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\bin\Debug\net8.0\AutoBrands.Domain.pdb
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\obj\Debug\net8.0\AutoBrands.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\obj\Debug\net8.0\AutoBrands.Domain.AssemblyInfoInputs.cache
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\obj\Debug\net8.0\AutoBrands.Domain.AssemblyInfo.cs
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\obj\Debug\net8.0\AutoBrands.Domain.csproj.CoreCompileInputs.cache
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\obj\Debug\net8.0\AutoBrands.Domain.dll
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\obj\Debug\net8.0\refint\AutoBrands.Domain.dll
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\obj\Debug\net8.0\AutoBrands.Domain.pdb
+C:\.NET 8 Proyectos - Ejemplos\Back\src\AutoBrands.Domain\obj\Debug\net8.0\ref\AutoBrands.Domain.dll
