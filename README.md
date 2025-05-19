@@ -3,31 +3,10 @@
 ## 📋 Descripción General
 Este proyecto es una **API RESTful** desarrollada con **.NET 8**, diseñada para gestionar la entidad **MarcasAutos**. Permite consultar todas las marcas registradas en la base de datos PostgreSQL.
 
-El objetivo principal es demostrar buenas prácticas de desarrollo backend aplicando:
-- **Clean Code** y principios SOLID
-- **Patrones de diseño**
-- **Entity Framework Core** (con migraciones & seed data)
-- **Pruebas unitarias con XUnit**
-- **Docker Compose** para entorno de desarrollo
 
 
 ## 🏛️ Arquitectura del Proyecto
 Se utilizó una **arquitectura hexagonal (Ports & Adapters)**, común en microservicios, para mantener separación de responsabilidades, facilitar el testing y escalar la solución.
-
-### 📦 Estructura de carpetas:
-
-├── src
-│   ├── AutoBrands.Api                // API REST Controllers & Middlewares
-│   ├── AutoBrands.Application        // Casos de uso (Business Logic)
-│   ├── AutoBrands.Domain             // Entidades y contratos (Interfaces)
-│   ├── AutoBrands.Infrastructure    // Persistencia, DbContext, Repositorios
-├── tests
-│   ├── AutoBrands.Api.Tests          // Pruebas para la capa API
-│   ├── AutoBrands.Application.Tests  // Pruebas para la capa Application
-│   ├── AutoBrands.Domain.Tests       // Pruebas para la capa Domain
-│   └── AutoBrands.Infrastructure.Tests // Pruebas para la capa Infraestructura
-├── docker-compose.yml                // Orquestador de contenedores (API + DB)
-├── README.md                         // Documentación
 
 
 ## 🏗️ Principales Tecnologías & Versiones
@@ -72,7 +51,7 @@ dotnet test
 ### 🐳 Docker Compose
 El archivo docker-compose.yml orquesta:
 
-Un contenedor PostgreSQL (puerto 5432)
+Un contenedor PostgreSQL (puerto 5433)
 
 Un contenedor MarcasAutos.Api (puerto 8080)
 
@@ -89,7 +68,6 @@ docker-compose up
 1. **Clonar repositorio:**
 
 git clone https://github.com/AlexanderROrtiz/AutoBrandsApi.git
-cd <tu-repo-clonado>
 
 2. **Configurar Base de Datos (local o Docker):**
 
